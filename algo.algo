@@ -1,0 +1,43 @@
+ALGORITHM algorithm_name
+VAR 
+  p:STRING;
+  comp i j k :INTEGER;
+  nbMots:INTEGER=1;
+  nbrvoyl:INTEGER=0;
+  nbrchar:INTEGER;
+
+
+BEGIN
+p:="go my code"
+while(p(p.leng-1)='.') do 
+    read(p);
+    
+while p < len(ph):  
+        while ph[p] == "":
+            nbMots = 0
+            if ph[p] != "":
+                nbMots = 1
+        p = p + 1
+    i = p
+    while i < len(ph):
+        if ph[i] == " ":
+            nbMots = nbMots + 1
+        i = i + 1
+
+
+ for j:=1 to leng(p) do
+     begin
+       if p[j] do
+     then   case 'a':case '0':case :'e' case :'u' case:'y'  case 'A':case '0':case :'E' case :'U' case:'Y'
+
+ nbrvoyl=nbrvoyl+1;
+     end;
+ for k:=1 to leng(char) do
+     begin
+if (p[k]<>"")
+ then
+
+          nbrchar=nbrchar+1;
+          end if
+
+END
